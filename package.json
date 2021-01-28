@@ -5,8 +5,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
-    "start": "nodemon --watch backend --exec node --experimental-modules server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
